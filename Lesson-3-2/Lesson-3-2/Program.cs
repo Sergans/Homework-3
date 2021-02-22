@@ -10,7 +10,7 @@ namespace Lesson_3_2
     {
         static void Main(string[] args)
         {
-            
+            //Справочник без поиска
             string[,] spravker = { { "Sergey", "121212" }, { "Ivan", "232323" }, { "Vovan", "323232" }, { "Vasya", "454545" }, { "Katya", "kat@mail.ru" } };
             //Вывести справочник при нажатии
             Console.WriteLine("Нажмите клавишу для выведения списка контактов");
