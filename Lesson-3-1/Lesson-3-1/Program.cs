@@ -10,7 +10,7 @@ namespace Lesson_3_1
     {
         static void Main(string[] args)
         {
-            int[,] a = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            int[,] a = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 },{ 10, 11, 12 } };//Массив изменен на3*4
 
             for (int s = 0; s < a.GetLength(0); s++)
             {
