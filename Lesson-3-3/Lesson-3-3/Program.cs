@@ -18,7 +18,7 @@ namespace Lesson_3_3
             {
                 b[i] = a[i];
             }
-            
+            //char[]b = a.ToArray(); Упрощенный вариант разбиения строки на символы
 
             for (int i = a.Length - 1; i >= 0; i--)
             {
