@@ -10,6 +10,7 @@ namespace Lesson_3_sea_battle
     {
         static void Main(string[] args)
         {
+            //Программа без проверки выхода за границы массива
             Console.WriteLine("Заполните поле кораблями(3 корабля)");
             //Создаем массив,заполняем его симолом 'O' 
             char[,] sea = new char[10, 10];
