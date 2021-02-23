@@ -19,7 +19,7 @@ namespace Lesson_3_additional_task
                 arr[i] = Convert.ToInt32(mas[i]);
                
             }
-            Console.WriteLine("Введите число");
+            Console.WriteLine("Введите число на которое смещает значения((n)-левую сторону,(-n)- правую сторону");
             int n = Convert.ToInt32(Console.ReadLine());
             int p = (arr.Length - 1);
             if (n > 0)
@@ -50,7 +50,7 @@ namespace Lesson_3_additional_task
             Console.WriteLine();
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write(arr[i]);
+                Console.Write($"{arr[i]} ");//Вывод с пробелами
             }
             Console.WriteLine();
         }
